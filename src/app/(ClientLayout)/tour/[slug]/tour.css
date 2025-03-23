@@ -1,0 +1,118 @@
+.box-border .product-name {
+        font-size: 1.125rem;
+        color: #365899;
+        line-height: 24px;
+        font-weight: 700;
+}
+.rating-start span {
+        display: block;
+        left: 0;
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+}
+.box-border .sale-price span {
+        font-weight: 900;
+        color: #ff5b00;
+        font-size: 1.5rem;
+}
+.origi-price {
+        text-decoration: line-through;
+        color: #666;
+}
+.box-border .sale-price {
+        color: #2d4271;
+        font-size: .875rem;
+        font-weight: 400;
+}
+.text-through {
+        text-decoration: line-through;
+        font-size: 20px;
+}
+
+.saleoff-badge {
+        position: absolute;
+                right: 1px;
+                background: #f00;
+                color: #fff;
+                text-align: center;
+                padding: 3px 15px;
+                font-size: 14px;
+}
+.box-border .saleoff-badge {
+        top: 0;
+        background: #ed1c24;
+        border-radius: 6px;
+        padding: 5px 15px;
+}
+
+.box-border .saleoff-badge::before {
+        border-radius: 6px;
+}
+
+
+.saleoff-badge:before {
+        position: absolute;
+        top: 2px;
+        left: 2px;
+        height: calc(100% - 4px);
+        width: calc(100% - 4px);
+        content: "";
+        border: 1px dashed #fff;}
+
+.product-info {
+        padding-left: 0;
+        margin-bottom: 0;
+        margin-top: 1rem;
+        display: grid;
+        grid: auto / auto auto;
+ 
+        column-gap: 30px;
+}
+
+.product-info li i {
+        color: #fbbc05;
+        margin-right: 5px;
+        width: 16px;
+        flex-shrink: 0;
+        transform: translateY(3px);
+}
+
+.product-info li {
+        display: flex;
+        list-style: none;
+        font-size: .875rem;
+        color: #2d4271;
+        margin-bottom: 5px;
+}
+
+.btn:not(:disabled):not(.disabled) {
+        cursor: pointer;
+}
+.action-book a {
+        font-size: 24px;
+        width: 100%;
+}
+.btn-orange,
+.bg-orange {
+        background: #ff5b00;
+        border-radius: 8px;
+        border: 0;
+        color: #fff;
+        border-radius: .25rem;
+}
+
+.action-book a span {
+        display: block;
+        font-size: 14px;
+        font-weight: 400;
+}
+
+.box-inner {
+        border: 1px solid #00000026;
+                padding: 10px;
+                border-radius: 5px;
+}
+.btn-submit-tele {
+        margin-left: 10px !important;
+}

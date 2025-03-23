@@ -1,0 +1,25 @@
+.site-header {
+    position: relative;
+  }
+  .site-header .black-logo {
+    display: none;
+  }
+  
+  .header-primary {
+    left: 0;
+    right: 0;
+    position: absolute;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+  }
+  
+  /*--- top header css start ---*/
+  .top-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  }
+
+  .top-header {
+    border-bottom: 1px solid rgba(255, 255, 255, 0.25);
+  }
+
